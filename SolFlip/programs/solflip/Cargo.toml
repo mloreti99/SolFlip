@@ -1,0 +1,15 @@
+[package]
+name = "solflip"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anchor-lang = "0.30.1"
+anchor-spl = "0.30.1"
+solana-program = "1.17.17"
+
+[features]
+default = ["no-entrypoint"]
+no-entrypoint = []
+
+document-features = []

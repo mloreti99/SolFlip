@@ -1,0 +1,15 @@
+[programs.devnet]
+solflip = "YOUR_PROGRAM_ID_HERE"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "Devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+deploy = "anchor build && anchor deploy"
+
+[test]
+dir = "./tests"
